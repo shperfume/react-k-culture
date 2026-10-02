@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import NavBar from './NavBar'
+import Navbar from './Navbar'
 
 function Header() {
     return (
@@ -9,7 +9,7 @@ function Header() {
                 <h1 className="logo">
                     <Link to='/'>K-ARCHIVE</Link>
                 </h1>
-                <NavBar />
+                <Navbar />
             </div>
         </header>
     )

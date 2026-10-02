@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 
-function NavBar() {
+function Navbar() {
 
     const navigate = useNavigate();
     const [message, setMessage] = useState("한국의 맛, 멋, 문화를 만나보세요");
@@ -38,4 +38,4 @@ function NavBar() {
     )
 }
 
-export default NavBar
+export default Navbar
